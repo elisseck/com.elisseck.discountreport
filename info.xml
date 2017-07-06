@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="com.elisseck.discountreport" type="module">
+  <file>discountreport</file>
+  <name>Discount Report</name>
+  <description>Event Income Detail Report with CiviDiscount summary added</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Eli Lisseck</author>
+    <email>lisseck@gmail.com</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://github.com/com.elisseck.discountreport</url>
+    <url desc="Documentation">http://github.com/com.elisseck.discountreport</url>
+    <url desc="Support">http://github.com/com.elisseck.discountreport</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2017-07-06</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/Discountreport</namespace>
+  </civix>
+</extension>
