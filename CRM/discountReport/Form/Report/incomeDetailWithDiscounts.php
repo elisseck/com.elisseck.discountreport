@@ -85,7 +85,7 @@ class CRM_Discountreport_Form_Report_incomeDetailWithDiscounts extends CRM_Repor
 	//Add discount code rows if the CiviDiscount extension is enabled
 	$discountExtensionOff = 0;
     try {
-      $discountResult = civicrm_api3('DiscountCode', 'get', array('sequential' => 1, 'return' => array("code"), ));
+      $discountResult = civicrm_api3('DiscountCode', 'get', array('sequential' => 1, 'return' => array("code"), 'options' => array('limit' => ""), ));
       $discountCodes = array();
       foreach ($discountResult['values'] as $code) {
         $discountCodes[$code['id']] = $code['code'];
