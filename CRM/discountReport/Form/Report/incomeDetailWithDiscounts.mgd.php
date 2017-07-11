@@ -6,14 +6,14 @@
 return array (
   0 => 
   array (
-    'name' => 'CRM_Discountreport_Form_Report_incomeDetailWithDiscounts',
+    'name' => 'CRM_discountReport_Form_Report_incomeDetailWithDiscounts',
     'entity' => 'ReportTemplate',
     'params' => 
     array (
       'version' => 3,
       'label' => 'incomeDetailWithDiscounts',
       'description' => 'incomeDetailWithDiscounts (com.elisseck.discountreport)',
-      'class_name' => 'CRM_Discountreport_Form_Report_incomeDetailWithDiscounts',
+      'class_name' => 'CRM_discountReport_Form_Report_incomeDetailWithDiscounts',
       'report_url' => 'com.elisseck.discountreport/incomedetailwithdiscounts',
       'component' => 'CiviEvent',
     ),
